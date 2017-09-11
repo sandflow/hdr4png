@@ -27,10 +27,18 @@ EXAMPLE USAGE
 
     python hdr4png.py -p ITUR_2100_PQ_FULL ITUR_2100_PQ_FULL.icc in.png out.png
     
-where `ITUR_2100_PQ_FULL.icc` can be retrieved from [Using the ITU BT.2100 PQ EOTF with the PNG Format WG Note](https://www.w3.org/TR/png-hdr-pq/).
+where `ITUR_2100_PQ_FULL.icc` can be retrieved from [Using the ITU BT.2100 PQ EOTF with the PNG Format WG Note](https://www.w3.org/TR/png-hdr-pq/), and 
+is also includes under `lib/png-hdr-pq`.
+
+
+SAMPLES
+=======
+
+The `examples` directory contains PNG files processed by this tool (`processed` suffix) as well as the corresponding source file (`source` suffix).
 
 
 NOTABLE DIRECTORIES AND FILES
 =============================
 
     src/hdr4png.py                      Main script
+    examples                            Sample PNG files
